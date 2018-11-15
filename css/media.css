@@ -1,0 +1,375 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+	/*header start*/
+	.logo-img{
+		width: 80px;
+	}
+	.custom_nav ul li a{
+		padding: 15px 0px !important;
+	}
+	.custom_nav ul li a:hover{
+		color: #000000 !important;
+	}
+	/*banner start*/
+	.banner{		
+		margin-top: 10px;
+	}
+	/*perfect*/
+	.perfect-content{
+		padding-top: 30px;
+		/*padding: 30px 21px;*/
+	}
+
+	.text{
+		font-size: 11px;	
+		padding-bottom: 12px;
+	}
+	.common{	
+		font-size: 11px;
+		
+	}
+	.perfect-content h1{	
+		font-size: 18px;
+		padding-top: 0px;
+		padding-bottom: 8px;
+	}
+	/*blog*/
+	.blog{
+		padding-top: 10px;
+		padding-bottom: 50px;
+
+	}
+	.blog-content{
+		margin-top: 50px;
+	}
+	.blog-content p{
+		padding-top: 27px;
+	}
+
+	.blog-content h1{
+
+		font-size: 18px;
+	}
+	/*newsletter*/
+	.newsletter{
+		padding: 30px 0;
+	}
+	.signup h1{	
+		font-size: 19px;
+		margin-bottom: 40px;	
+	}
+	.for-form input {	
+		font-size: 12px;
+		width: 230px;	
+	}
+	.for-form button {
+		top: 8px;
+		right: 65px;
+	}
+	/*more button*/
+	.more_btn{
+		padding: 22px 0;
+	}
+	.more_btn button{
+		font-size: 11px;
+		padding: 10px 20px;
+		border: 1px solid #626262;
+	}
+	/*footer*/
+			.footer {
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+	.footer-content ul li{
+		font-size: 10px;		
+	}
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	/*header start*/
+	.custom_nav ul li a{
+		padding: 15px 0px !important;
+	}
+	.custom_nav ul li a:hover{
+		color: #000000 !important;
+	}
+	/*banner*/
+	.banner{
+		overflow: hidden;	
+	}
+
+	/*perfect*/
+	.perfect-content{
+		padding-top: 40px;
+		/*padding: 40px 23px;*/
+	}
+
+	.text{
+		font-size: 10px;	
+		padding-bottom: 15px;
+	}
+	.common{	
+		font-size: 10px;
+		
+	}
+	.perfect-content h1{	
+		font-size: 19px;
+		padding-top: 0px;
+		padding-bottom: 9px;
+	}
+	/*blog*/
+	.blog{
+		padding-top: 25px;
+		padding-bottom: 50px;
+
+	}
+	.blog-content{
+		margin-top: 50px;
+	}
+	.blog-content p{
+		padding-top: 27px;
+	}
+
+	.blog-content h1{
+
+		font-size: 16px;
+	}
+
+	/*newsletter*/
+	.newsletter{
+		padding: 30px 0;
+	}
+	.signup h1{	
+		font-size: 20px;
+		margin-bottom: 60px;	
+	}
+	.for-form input {	
+		font-size: 12px;
+		width: 250px;	
+	}
+	.for-form button {
+		top: 8px;
+		right: 50px;
+	}
+	/*more button*/
+	.more_btn{
+		padding: 40px 0;
+	}
+	.more_btn button{
+		font-size: 11px;
+		padding: 10px 20px;
+		border: 1px solid #626262;
+	}
+	/*footer*/
+			.footer {
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+	.footer-content ul li{
+		font-size: 12px;		
+	}
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+	/*header start*/
+	.logo-img{
+		width: 100px;
+	}
+	.custom_nav ul li a{
+		padding: 24px 30px !important;
+	}
+	.custom_nav ul li a:hover{
+		color: #000000 !important;
+	}
+	.banner {
+		margin-top: 30px;
+	}
+	/*perfect*/
+	.perfect-content {
+		padding-top: 50px;
+		/*padding: 50px 40px;*/
+	}
+
+	.text{
+		font-size: 11px;	
+		padding-bottom: 22px;
+	}
+	.common{	
+		font-size: 11px;
+		
+	}
+	.perfect-content h1{	
+		font-size: 20px;
+		padding-top: 3px;
+		padding-bottom: 12px;
+	}
+	/*blog*/
+	.blog{
+		padding-top: 25px;
+		padding-bottom: 50px;
+
+	}
+	.blog-content{
+		margin-top: 50px;
+	}
+	.blog-content p{
+		padding-top: 27px;
+	}
+
+	.blog-content h1{
+
+		font-size: 19px;
+	}
+	/*newsletter*/
+	.newsletter{
+		padding: 30px 0;
+	}
+	.signup h1{	
+		font-size: 20px;
+		margin-bottom: 60px;	
+	}
+	.for-form input {	
+		font-size: 12px;
+		width: 250px;	
+	}
+	.for-form button {
+		top: 8px;
+		right: 50px;
+	}
+	/*more button*/
+	.more_btn{
+		padding: 50px 0;
+	}
+	.more_btn button{
+		font-size: 12px;
+		padding: 12px 25px;
+		border: 1px solid #626262;
+	}
+	/*footer*/
+		.footer {
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+	.footer-content ul li{
+		font-size: 12px;		
+	}
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+	/*header start*/
+	.custom_nav ul li a:hover{
+		color: #000000 !important;
+	}
+	.banner {
+		margin-top: 50px;
+	}
+
+	/*perfect*/
+
+	.perfect-content {
+		padding-top: 50px;
+		
+		/*padding: 50px 40px;*/
+	}
+	.text{
+		font-size: 13px;	
+		padding-bottom: 30px;
+	}
+	.common{	
+		font-size: 13px;
+		
+	}
+	.perfect-content h1{	
+		font-size: 22px;
+		padding-top: 7px;
+		padding-bottom: 14px;
+	}
+	/*blog*/
+	.blog{
+		padding-top: 30px;
+		padding-bottom: 50px;
+
+	}
+	.blog-content{
+		margin-top: 60px;
+	}
+
+	.blog-content p{
+		padding-top: 27px;
+	}
+
+	.blog-content h1{
+
+		font-size: 25px;
+	}
+	/*newsletter*/
+	.signup h1{	
+		font-size: 25px;
+		margin-bottom: 70px;	
+	}
+	.for-form input {	
+		font-size: 13px;
+		width: 290px;	
+	}
+	.for-form button {
+		top: 8px;
+		right: 30px;
+	}
+	/*more button*/
+	.more_btn{
+		padding: 65px 0;
+	}
+	.more_btn button{
+		padding: 16px 30px;
+		font-size: 18px;
+	}
+	/*footer*/
+	.footer {
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+	.footer-content ul li{
+		font-size: 13px;		
+	}
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	/*header start*/
+
+	.custom_nav ul li a:hover{
+		color:#000000 !important;
+	}
+	/*banner*/
+	.banner {
+		margin-top: 50px;
+	}
+
+	/*blog*/
+	.blog{
+		padding-top: 30px;
+		padding-bottom: 50px;
+
+	}
+	.blog-content{
+		margin-top: 60px;
+	}
+	.blog-content p{
+		padding-top: 27px;
+	}
+
+	.blog-content h1{
+
+		font-size: 22px;
+	}
+	/*newsletter*/
+	.signup h1{	
+		font-size: 30px;	
+	}
+
+
+
+}

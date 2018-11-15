@@ -1,0 +1,167 @@
+html, body {
+	overflow-x: hidden;
+}
+body{
+	font-family: 'Playfair Display', serif;
+	
+}
+/*header start*/
+header {
+	margin-top: 15px;
+}
+.custom_nav{}
+.custom_nav ul li:last-child a{
+	padding-right: 0px !important;
+}
+.custom_nav ul li a{
+	text-transform: uppercase;
+	color: #777777 !important;
+	font-size: 14px;	
+	padding: 35px 50px !important;
+	transition: .5s;
+}
+.custom_nav ul li a:hover{
+	color: red !important;
+}
+
+
+/*banner start*/
+.banner{
+	overflow: hidden;
+	margin-top: 50px;
+}
+.banner img{
+	width: 100%;
+}
+
+/*perfect*/
+.perfect{
+
+}
+.perfect-content{
+	padding-top: 60px;
+}
+.perfect-content p{	
+
+}
+.text{
+	font-size: 15px;
+	color:#0c0b0b;
+	font-family: 'Playfair Display', serif;
+	padding-bottom: 40px;
+}
+.common{
+	color: #b4ad9e;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 16px;
+	text-transform: uppercase;
+	
+}
+.perfect-content h1{
+	color: #626262;
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	font-size: 30px;
+	padding-top: 15px;
+	padding-bottom: 23px;
+}
+
+
+/*blog*/
+.blog{
+	padding-top: 30px;
+	padding-bottom: 50px;
+
+}
+.blog-content{
+	margin-top: 60px;
+}
+.blog-content p{
+	padding-top: 30px;
+}
+.blog-content img{
+	width: 100%;
+}
+.blog-content h1{
+	color: #626262;
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	font-size: 30px;
+	margin-bottom: 0;
+}
+/*newsletter*/
+.newsletter{
+	/*min-height: 250px;*/
+	background-color: #f0f0f0;
+	padding: 45px 0;
+}
+.signup{
+
+}
+.signup h1{
+	color: #636161;
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	font-size: 30px;
+	margin-top: 10px;
+	margin-bottom: 80px;
+}
+.for-form{
+	width: 350px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	position: relative;
+}
+
+.for-form input {
+	border: none;
+	background: transparent;
+	border-bottom: 1px solid black;
+	width: 350px;
+	padding: 10px 50px 10px 10px;
+	font-size: 18px;
+	outline: none;
+}
+.for-form button {
+    border: none;
+    background: transparent;
+    position: absolute;
+    top: 14px;
+    right: 0px;
+}
+
+/*button more*/
+.btnmore{
+
+}
+.more_btn{
+	padding: 80px 0;
+}
+.more_btn button{
+    padding: 20px 35px;
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+    color: #6c6c6c;
+    background: transparent;
+    border: none;
+    border: 2px solid #626262;
+    border-radius: 2px;
+    transition: .5s;
+}
+.more_btn button:hover{
+    background-color: #edebeb;
+    border: 2px solid #62626261;
+    color: #090707cc;
+}
+/*footer*/
+.footer{
+	background-color: #6262622e;
+	padding-top: 40px;
+    padding-bottom: 30px;
+   
+}
+.footer-content ul li{
+    font-size: 14px;
+    color: #626262;
+}
